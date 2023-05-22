@@ -45,3 +45,7 @@ enable()
 // disable bounce fixer
 // disable()
 ```
+
+### What problem to resolve
+
+When using a scrollable container(e.g. using overflow: auto) on an iOS device and sliding the pointer to the bottom or top, the page bounces like rubber bands. And scrolling the page for a period of time will cause the page to bounce, affecting normal page scrolling.
