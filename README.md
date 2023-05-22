@@ -1,3 +1,5 @@
+<a href="https://github.com/varletjs/bounce-fixer/blob/main/README.zh-CN.md">中文 README</a>
+
 ### Intro
 
 Fixed bouncing caused by pull up or pull down on mobile web pages
