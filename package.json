@@ -1,0 +1,21 @@
+{
+  "name": "@varlet/bounce-fixer",
+  "type": "module",
+  "version": "0.0.0",
+  "author": "haoziqaq <357229046@qq.com>",
+  "description": "Fixed bouncing caused by pull up or pull down on mobile web pages",
+  "keywords": [
+    "bounce",
+    "fixer",
+    "varlet"
+  ],
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "release": "varlet-cli release"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@varlet/cli": "^2.11.1"
+  }
+}
