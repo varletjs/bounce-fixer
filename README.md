@@ -9,15 +9,15 @@ Fixed bouncing caused by pull up or pull down on mobile web pages
 ```html
 <script src="https://cdn.jsdelivr.net/npm/@varlet/bounce-fixer/iife.js"></script>
 <script>
-  const { createBounceFixer } = BounceFixer
+const { createBounceFixer } = BounceFixer
 
-  const { enable, disable } = createBounceFixer()
+const { enable, disable } = createBounceFixer()
 
-  // enable bounce fixer
-  enable()
+// enable bounce fixer
+enable()
 
-  // disable bounce fixer
-  // disable()
+// disable bounce fixer
+// disable()
 </script>
 ```
 
