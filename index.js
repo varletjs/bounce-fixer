@@ -26,11 +26,8 @@ function createBounceFixer() {
       if (allowScroll) {
         const currentY = event.touches[0].clientY
         const isReachTop = startY <= currentY && el.scrollTop == 0
-        const offsetBottom = Math.abs(
-          el.scrollHeight - el.scrollTop - el.clientHeight
-        )
-        const isReachBottom =
-          startY >= currentY && (offsetBottom === 0 || offsetBottom === 1)
+        const offsetBottom = Math.abs(el.scrollHeight - el.scrollTop - el.clientHeight)
+        const isReachBottom = startY >= currentY && offsetBottom <= 1
 
         if (isReachTop || isReachBottom) {
           event.preventDefault()

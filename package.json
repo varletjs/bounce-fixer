@@ -4,6 +4,8 @@
   "version": "0.0.1",
   "author": "haoziqaq <357229046@qq.com>",
   "description": "Fixed bouncing caused by pull up or pull down on mobile web pages",
+  "types": "./index.d.ts",
+  "files": ["iife.js", "index.js", "index.d.ts"],
   "keywords": [
     "bounce",
     "fixer",
