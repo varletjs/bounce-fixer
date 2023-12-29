@@ -18,10 +18,10 @@
   "main": "index.js",
   "module": "index.js",
   "scripts": {
-    "release": "varlet-cli release"
+    "release": "vr release"
   },
   "license": "MIT",
   "devDependencies": {
-    "@varlet/cli": "^2.11.1"
+    "@varlet/release": "0.1.2"
   }
 }

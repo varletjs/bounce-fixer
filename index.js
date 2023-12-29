@@ -30,7 +30,9 @@ function createBounceFixer() {
         const isReachBottom = startY >= currentY && offsetBottom <= 1
 
         if (isReachTop || isReachBottom) {
-          event.preventDefault()
+          if (event.cancelable) {
+            event.preventDefault()
+          }
         }
 
         return
